@@ -1,0 +1,59 @@
+Return-Path: <no-reply@beebole.com>
+X-Spam-Checker-Version: SpamAssassin 3.4.2 (2018-09-13) on	shcl-b506c.serverlet.com
+X-Spam-Level: 
+X-Spam-Status: No, score=0.0 required=7.0
+ tests=DKIM_SIGNED,DKIM_VALID,	DKIM_VALID_AU,DKIM_VALID_EF,HTML_MESSAGE,MIME_HEADER_CTYPE_ONLY,	MIME_HTML_ONLY,RCVD_IN_MSPIKE_H3,RCVD_IN_MSPIKE_WL,SPF_HELO_PASS,	SPF_PASS,URIBL_BLOCKED autolearn=ham autolearn_force=no version=3.4.2
+X-Original-To: d.innocenti@chemitec.it
+Delivered-To: d.innocenti@chemitec.it
+Received: from beebole-apps.com (mail.beebole-apps.com [172.105.82.26])	by
+ shcl-b506c.serverlet.com (Postfix) with ESMTP id 37F85C1268	for
+ <d.innocenti@chemitec.it>; Wed,  3 Mar 2021 17:00:12 +0100 (CET)
+Received: by beebole-apps.com (Postfix, from userid 1000)	id B9582233319; Wed,  3 Mar
+ 2021 16:00:10 +0000 (UTC)
+Authentication-Results: shcl-b506c.serverlet.com;	dmarc=pass (p=NONE sp=NONE) smtp.from=beebole.com
+ header.from=beebole.com;	dkim=pass header.d=beebole.com;	spf=pass (sender IP
+ is 172.105.82.26) smtp.mailfrom=no-reply@beebole.com
+ smtp.helo=beebole-apps.com
+Received-SPF: pass (shcl-b506c.serverlet.com: domain of beebole.com designates
+ 172.105.82.26 as permitted sender) client-ip=172.105.82.26;
+ envelope-from=no-reply@beebole.com; helo=beebole-apps.com;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=beebole.com;	s=beeprod2;
+ t=1614787210;	bh=mz3DD10IjnVgEJIzrMzerfGNo3Kfye7dvMDWqBg6Dxw=;	h=From:Subject:To:Date:From;	b=ec0e543MR4zUKa2zss6DqfDtc5vl/i58Q4Br4myfyuTsugZX64GMlp9RKOzUKCb3J	 Wjy4j6oIqvw0PxKd4Y87vmtqScJS343pUL2ywm4XE2HmUFW1XDj1LQjx9xndtY88Tj	
+ Fkfvw19L/H7WzrXipEee5lsZpGf/jbZ7xVEk0MC0=
+From: 'BeeBole' <no-reply@beebole.com>
+Subject: =?utf-8?B?UHJvbWVtb3JpYSB0aW1lc2hlZXQ=?=
+To: d.innocenti@chemitec.it
+X-Mailer: mail (GNU Mailutils 3.4)
+Message-Id: <20210303160010.B9582233319@beebole-apps.com>
+Date: Wed,  3 Mar 2021 16:00:10 +0000 (UTC)
+Reply-To: 
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--_=_NextPart0_6510492d-981a-449f-b549-09c0d7dc41a2"
+
+
+----_=_NextPart0_6510492d-981a-449f-b549-09c0d7dc41a2
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Return-Path: <no-reply@beebole.com>
+X-Spam-Checker-Version: SpamAssassin 3.4.2 (2018-09-13) on	shcl-b506c.serverlet.com
+X-Spam-Level: 
+X-Spam-Status: No, score=0.0 required=7.0 tests=DKIM_SIGNED,DKIM_VALID,	DKIM_VALID_AU,DKIM_VALID_EF,HTML_MESSAGE,MIME_HEADER_CTYPE_ONLY,	MIME_HTML_ONLY,RCVD_IN_MSPIKE_H3,RCVD_IN_MSPIKE_WL,SPF_HELO_PASS,	SPF_PASS,URIBL_BLOCKED autolearn=ham autolearn_force=no version=3.4.2
+X-Original-To: d.innocenti@chemitec.it
+Delivered-To: d.innocenti@chemitec.it
+Received: from beebole-apps.com (mail.beebole-apps.com [172.105.82.26])	by shcl-b506c.serverlet.com (Postfix) with ESMTP id 37F85C1268	for <d.innocenti@chemitec.it>; Wed,  3 Mar 2021 17:00:12 +0100 (CET)
+Authentication-Results: shcl-b506c.serverlet.com;	dmarc=pass (p=NONE sp=NONE) smtp.from=beebole.com header.from=beebole.com;	dkim=pass header.d=beebole.com;	spf=pass (sender IP is 172.105.82.26) smtp.mailfrom=no-reply@beebole.com smtp.helo=beebole-apps.com
+Received-SPF: pass (shcl-b506c.serverlet.com: domain of beebole.com designates 172.105.82.26 as permitted sender) client-ip=172.105.82.26; envelope-from=no-reply@beebole.com; helo=beebole-apps.com;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=beebole.com;	s=beeprod2; t=1614787210;	bh=mz3DD10IjnVgEJIzrMzerfGNo3Kfye7dvMDWqBg6Dxw=;	h=From:Subject:To:Date:From;	b=ec0e543MR4zUKa2zss6DqfDtc5vl/i58Q4Br4myfyuTsugZX64GMlp9RKOzUKCb3J	 Wjy4j6oIqvw0PxKd4Y87vmtqScJS343pUL2ywm4XE2HmUFW1XDj1LQjx9xndtY88Tj	 Fkfvw19L/H7WzrXipEee5lsZpGf/jbZ7xVEk0MC0=
+From: 'BeeBole' <no-reply@beebole.com>
+Subject: =?utf-8?B?UHJvbWVtb3JpYSB0aW1lc2hlZXQ=?=
+To: d.innocenti@chemitec.it
+X-Mailer: mail (GNU Mailutils 3.4)
+Message-Id: <20210303160010.B9582233319@beebole-apps.com>
+Date: Wed,  3 Mar 2021 16:00:10 +0000 (UTC)
+
+Evaluation Warning: This message was created and sent with Spire=2EEmail fo=
+r =2ENET=2E
+
+----_=_NextPart0_6510492d-981a-449f-b549-09c0d7dc41a2--
+

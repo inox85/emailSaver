@@ -1,0 +1,18 @@
+Reporting-MTA: dns; shcl-b506c.serverlet.com
+X-Postfix-Queue-ID: D0D8FC2A9C
+X-Postfix-Sender: rfc822; d.innocenti@chemitec.it
+Arrival-Date: Fri, 19 Feb 2021 14:57:24 +0100 (CET)
+
+Final-Recipient: rfc822; n.bellucci@chemite.it
+Original-Recipient: rfc822;n.bellucci@chemite.it
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=chemite.it type=AAAA: Host not found
+
+Final-Recipient: rfc822; _plesk_bounce_chemitec.it@localhost.localdomain
+Original-Recipient: rfc822;j.matacih@chemitec.it
+Action: failed
+Status: 5.2.1
+Diagnostic-Code: x-unix; Spiacenti, questo indirizzo non esiste in questo
+    server Potete scrivere a sales@chemitec.it per ulteriori informazioni.
